@@ -1,0 +1,23 @@
+.dashboard-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 1rem;
+
+  background: #f4f4f4;
+
+  .logo {
+    width: 150px;
+  }
+
+  .current-page {
+    text-transform: capitalize;
+    text-align: center;
+  }
+
+  .notification-bell {
+    font-size: 2rem;
+    // color: ;
+  }
+}

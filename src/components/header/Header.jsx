@@ -2,13 +2,15 @@ import React from "react";
 import { logo } from "../../assets";
 import { Notification } from "..";
 
-function Header() {
+function Header({ page, setPage }) {
+  setPage("dashboard");
+
   return (
-    <div>
-      <img src={logo} alt="logo" />
-      <h1>Header</h1>
+    <header className="dashboard-header">
+      <img src={logo} alt="logo" className="logo" />
+      <h2 className="current-page">{page}</h2>
       <Notification />
-    </div>
+    </header>
   );
 }
 
