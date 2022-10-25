@@ -1,9 +1,13 @@
-import Sidebar from "./components/sidebar/Sidebar";
+import "./index.scss";
+
+import { Body, Header, Sidebar } from "./components";
 
 function App() {
   return (
-    <div className="App">
+    <div className="wrapper">
+      <Header />
       <Sidebar />
+      <Body />
     </div>
   );
 }

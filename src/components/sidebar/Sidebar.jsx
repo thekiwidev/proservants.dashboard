@@ -1,8 +1,13 @@
 import React from "react";
-import "./Sidebar.scss";
+// import { Tab } from "..";
 
-function Sidebar() {
-  return <div className="sidebar-container">Sidebar</div>;
-}
+const Sidebar = () => {
+  return (
+    <div>
+      <h1>Sidebar</h1>
+      {/* <Tab /> */}
+    </div>
+  );
+};
 
 export default Sidebar;
