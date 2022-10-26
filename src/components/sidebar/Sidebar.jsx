@@ -1,13 +1,19 @@
 import React from "react";
-// import { Tab } from "..";
+// ----------------------------
+// STYLES
+import "./sidebar.scss";
+
+// ----------------------------
+// ICONS
+
+// ----------------------------
+// COMPONENTS
+
+// ----------------------------
+// ASSETS
 
 const Sidebar = () => {
-  return (
-    <div>
-      <h1>Sidebar</h1>
-      {/* <Tab /> */}
-    </div>
-  );
+  return <div className="sidebar-container"></div>; 
 };
 
 export default Sidebar;

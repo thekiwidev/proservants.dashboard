@@ -9,8 +9,10 @@ function App() {
   return (
     <div className="wrapper">
       <Header page={page} setPage={setPage} />
-      <Sidebar />
-      <Body />
+      <div className="body">
+        <Sidebar />
+        <Body />
+      </div>
     </div>
   );
 }
