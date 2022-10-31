@@ -1,7 +1,7 @@
 import React from "react";
 import DashboardCard from "../deliverycard/DashboardCard";
 
-import "./body.scss";
+import "./Body.scss";
 
 import { TbTruckDelivery, TbTruckReturn, TbFreeRights } from "react-icons/tb";
 

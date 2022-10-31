@@ -1,14 +1,14 @@
 import React from "react";
 // ----------------------------
 // STYLES
-import "./sidebar.scss";
-// import Tab from "./Tab";
+import "./Sidebar.scss";
+
 import User from "./User";
 
 // ----------------------------
 // ICONS
 
-import {  RiRunLine } from "react-icons/ri";
+import { RiRunLine } from "react-icons/ri";
 
 import {
   TbTruckDelivery,

@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./dashboardCard.scss";
+import "./DashboardCard.scss";
 
 const DashboardCard = ({ amount, cardTitle, icon }) => {
   return (
