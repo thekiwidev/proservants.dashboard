@@ -1,7 +1,6 @@
 import React from "react";
 // ----------------------------
 // STYLES
-import "./sidebar.scss";
 
 // ----------------------------
 // ICONS
