@@ -1,9 +1,97 @@
 .sidebar-container {
-  // background: #000;
   height: 100%;
   width: 20vw;
 
-  box-shadow: 5px 8px 15px #00000050;
-
   border-radius: 1rem;
+
+  background: #05ddd622;
+
+  position: relative;
+
+  .user-container {
+    padding: 2rem 1.5rem 1rem;
+
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    margin-bottom: 0.1rem;
+
+    border-radius: 0.3rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+
+    cursor: pointer;
+
+    transition: color 0.2s ease-out;
+
+    &:hover {
+      background: #006d6b;
+      color: #fff;
+    }
+
+    .user-dp {
+      font-size: 2.5rem;
+
+      .icon {
+        font-size: 3rem;
+      }
+    }
+
+    .user-info {
+      h3 {
+        font-size: 1rem;
+        line-height: 1;
+
+        margin-bottom: 0.2rem;
+      }
+      p {
+        font-size: 13px;
+        font-weight: bold;
+
+        color: #888;
+        line-height: 1;
+      }
+    }
+  }
+
+  .navbar-tabs {
+    margin-top: 2.5rem;
+
+    padding: 1rem 1.5rem;
+  }
+
+  footer {
+    padding: 1rem 1.5rem;
+
+    width: 100%;
+    position: absolute;
+    bottom: 5%;
+  }
+
+  .tab-item {
+    width: 100%;
+
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+
+    padding: 0.4rem;
+    margin-bottom: 0.1rem;
+
+    border-radius: 0.3rem;
+
+    cursor: pointer;
+
+    transition: color 0.2s ease-out;
+
+    &:hover {
+      background: #006d6b;
+      color: #fff;
+    }
+
+    .icon {
+      font-size: 1.5rem;
+    }
+  }
 }
