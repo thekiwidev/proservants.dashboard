@@ -8,13 +8,15 @@ import User from "./User";
 // ----------------------------
 // ICONS
 
+import {  RiRunLine } from "react-icons/ri";
+
 import {
-  RiSettings3Line,
-  RiLayoutMasonryLine,
-  RiCouponLine,
-  RiTakeawayLine,
-  RiRunLine,
-} from "react-icons/ri";
+  TbTruckDelivery,
+  TbLayout2,
+  TbTruckOff,
+  TbTicket,
+  TbSettings,
+} from "react-icons/tb";
 // ----------------------------
 // COMPONENTS
 
@@ -28,28 +30,32 @@ const Sidebar = () => {
       {/*Navigation Tabs */}
       <nav className="navbar-tabs">
         <div className="tab-item">
-          <RiLayoutMasonryLine className="icon" />
+          <TbLayout2 className="icon" />
           <p>Dashboard</p>
         </div>
 
         <div className="tab-item">
-          <RiTakeawayLine className="icon" />
+          <TbTruckDelivery className="icon" />
           <p>Delivery</p>
         </div>
         <div className="tab-item">
-          <RiCouponLine className="icon" />
+          <TbTicket className="icon" />
           <p>Tickets</p>
         </div>
         <div className="tab-item">
           <RiRunLine className="icon" />
           <p>Pick Up</p>
         </div>
+        <div className="tab-item">
+          <TbTruckOff className="icon" />
+          <p>Cancels</p>
+        </div>
       </nav>
       {/* Settings Tab */}
       <footer>
         {/* <Tab></Tab> */}
         <div className="tab-item">
-          <RiSettings3Line className="icon" />
+          <TbSettings className="icon" />
           <p>Settings</p>
         </div>
       </footer>

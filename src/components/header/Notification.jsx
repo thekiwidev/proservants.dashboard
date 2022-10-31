@@ -1,8 +1,5 @@
 import React from "react";
 
-// STYLES
-import "./header.scss";
-
 // --------------------
 // ICONS
 

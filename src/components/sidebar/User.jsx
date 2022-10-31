@@ -6,7 +6,8 @@ import "./sidebar.scss";
 // ----------------------------
 // ICONS
 
-import { RiUserSmileLine } from "react-icons/ri";
+// import { RiUserSmileLine } from "react-icons/ri";
+import { TbMoodSmile } from "react-icons/tb";
 
 // ----------------------------
 // COMPONENTS
@@ -18,7 +19,7 @@ const User = () => {
   return (
     <div className="user-container">
       <div className="user-dp">
-        <RiUserSmileLine className="icon" />
+        <TbMoodSmile className="icon" />
       </div>
       <div className="user-info">
         <h3>Hello, {"@thekiwidev"}</h3>

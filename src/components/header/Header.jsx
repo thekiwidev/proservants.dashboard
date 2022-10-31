@@ -1,6 +1,7 @@
 import React from "react";
 import { logo } from "../../assets";
 import { Notification } from "..";
+import "./Header.scss";
 
 function Header({ page, setPage }) {
   setPage("dashboard");

@@ -1,0 +1,37 @@
+.dashboard-card {
+  box-shadow: 3px 4px 15px #00000020;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin: 1rem;
+
+  .top-content {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    margin-bottom: 1rem;
+
+    .icon {
+      font-size: 3.5rem;
+
+      &.completed-delivery-icon {
+        color: #048bad;
+      }
+
+      &.pending-delivery-icon {
+        color: #ddb100;
+      }
+      &.total-earnings-icon {
+        color: #00b141;
+      }
+    }
+  }
+
+  .bottom-content {
+    width: 100%;
+    height: 100px;
+
+    background: #e2e2e2;
+    border-radius: 0.8rem;
+  }
+}
