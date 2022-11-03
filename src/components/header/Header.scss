@@ -12,12 +12,18 @@
 
   padding: 1rem 2rem;
 
+  
   .logo {
-    max-width: 170px;
+   
     display: none;
 
     @media only screen and (min-width: $tabletView) {
       display: block;
+      flex: 1;
+
+      img{
+         max-width: 170px;
+      }
     }
   }
 

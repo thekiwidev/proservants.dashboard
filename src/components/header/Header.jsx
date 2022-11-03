@@ -11,7 +11,9 @@ function Header({ page, handleMenuCLick }) {
       <div className="menu-icon">
         <TbAlignLeft onClick={handleMenuCLick} />
       </div>
-      <img src={logo} alt="logo" className="logo" />
+      <div className="logo">
+        <img src={logo} alt="logo" />
+      </div>
       <h2 className="current-page">{page}</h2>
       <Notification />
     </header>
