@@ -1,4 +1,4 @@
-import React from "react";
+// import React, { useContext } from "react";
 // ----------------------------
 // STYLES
 import "./Sidebar.scss";
@@ -17,15 +17,18 @@ import {
   TbTicket,
   TbSettings,
 } from "react-icons/tb";
+// import DomContextProvider from "../../contexts/DomContext";
 // ----------------------------
 // COMPONENTS
 
 // ----------------------------
 // ASSETS
 
-const Sidebar = () => {
+const Sidebar = ({ classList }) => {
+  // const { sidebarClassList } = useContext(DomContextProvider);
+
   return (
-    <div className="sidebar-container">
+    <div className={`${classList.classes}`}>
       <User />
       {/*Navigation Tabs */}
       <nav className="navbar-tabs">

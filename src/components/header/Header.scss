@@ -1,3 +1,5 @@
+@import "../variables.scss";
+
 .dashboard-header {
   height: 10vh;
   width: 100%;
@@ -13,6 +15,10 @@
   .logo {
     max-width: 170px;
     display: none;
+
+    @media only screen and (min-width: $tabletView) {
+      display: block;
+    }
   }
 
   .current-page {
@@ -31,6 +37,26 @@
 
     text-align: left;
     font-size: 1.6rem;
+
+    @media only screen and (min-width: $tabletView) {
+      display: none;
+    }
+
+    svg {
+      padding: 0.5rem;
+      font-size: 2.5rem;
+
+      border-radius: 0.3rem;
+
+      cursor: pointer;
+
+      transition: 0.3s;
+
+      &:hover {
+        background: #006d6b;
+        color: #fff;
+      }
+    }
   }
 
   .notification-bell {
@@ -42,5 +68,21 @@
 
     text-align: right;
     font-size: 1.8rem;
+
+    svg {
+      padding: 0.5rem;
+      font-size: 2.5rem;
+
+      border-radius: 0.3rem;
+
+      cursor: pointer;
+
+      transition: 0.3s;
+
+      &:hover {
+        background: #006d6b;
+        color: #fff;
+      }
+    }
   }
 }
