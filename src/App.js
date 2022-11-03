@@ -1,6 +1,6 @@
 import "./index.scss";
 
-import { Body, Header, Sidebar } from "./components";
+import { Body, Header } from "./components";
 import { useState } from "react";
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
     <div className="wrapper">
       <Header page={page} setPage={setPage} />
       <div className="body">
-        <Sidebar />
+        {/* <Sidebar /> */}
         <Body />
       </div>
     </div>

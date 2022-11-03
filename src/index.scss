@@ -5,13 +5,18 @@
 
   font-family: "Karla", sans-serif;
 }
+
+body {
+  background: #f3f3f3;
+}
+
 .wrapper {
   max-height: 100vh;
   overflow: hidden;
 
   .body {
     display: flex;
-    align-items: center;
+    justify-content: center;
     gap: 1rem;
 
     padding: 1rem;
