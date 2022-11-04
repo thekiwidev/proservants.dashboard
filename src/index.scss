@@ -1,3 +1,4 @@
+// import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;600;800&display=swap');
 @import "./components/variables.scss";
 
 * {
@@ -19,6 +20,8 @@ body {
   .body {
     padding: 1rem;
     height: 90vh;
+
+    overflow-y: scroll;
 
     @media only screen and (min-width: $tabletView) {
       display: flex;

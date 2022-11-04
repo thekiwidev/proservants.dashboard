@@ -7,7 +7,7 @@ import { TbTruckDelivery, TbTruckReturn, TbFreeRights } from "react-icons/tb";
 
 const Body = () => {
   return (
-    <div>
+    <div className="body-contents">
       <div className="cards">
         <DashboardCard
           cardTitle="Completed Delivery"

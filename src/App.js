@@ -24,7 +24,12 @@ function App() {
 
   return (
     <div className="wrapper">
-      <Header page={page} setPage={setPage} handleMenuCLick={handleMenuCLick} />
+      <Header
+        page={page}
+        setPage={setPage}
+        handleMenuCLick={handleMenuCLick}
+        classList={sidebarClassList}
+      />
       <div className="body">
         <Sidebar classList={sidebarClassList} />
         <Body />

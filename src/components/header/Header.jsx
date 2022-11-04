@@ -5,7 +5,7 @@ import { TbAlignLeft } from "react-icons/tb";
 // TbAlignLeft
 import "./Header.scss";
 
-function Header({ page, handleMenuCLick }) {
+function Header({ page, handleMenuCLick, classList }) {
   return (
     <header className="dashboard-header">
       <div className="menu-icon">

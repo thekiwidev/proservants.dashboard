@@ -10,19 +10,17 @@
   align-items: center;
   justify-content: center;
 
-  padding: 1rem 2rem;
+  padding: 1rem 1.5rem;
 
-  
   .logo {
-   
     display: none;
 
     @media only screen and (min-width: $tabletView) {
       display: block;
       flex: 1;
 
-      img{
-         max-width: 170px;
+      img {
+        max-width: 170px;
       }
     }
   }
